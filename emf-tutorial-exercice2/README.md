@@ -11,7 +11,7 @@ Nous nous intéressons maintenant à toutes les étapes de génération de code 
 
 ## Étapes à suivre
 
-* Sélectionner le fichier *addressbook.genmodel* (qui a été généré dans l’exercice précédent) et visualiser le au format XML. Vous noterez une ressemblance avec le contenu du fichier *addressbook.ecore* hormis le fait que le modèle décrit dans *addressbook.genmodel* ne s’appuie pas sur le même métamodèle.
+* Sélectionner le fichier *addressbook.genmodel* (qui a été généré dans l’exercice précédent) et le visualiser au format XML. Vous noterez une ressemblance avec le contenu du fichier *addressbook.ecore* hormis le fait que le modèle décrit dans *addressbook.genmodel* ne s’appuie pas sur le même métamodèle.
 
 * Visualiser le fichier *genmodel* avec l’outil d’édition **EMF Generator** et modifier le contenu du fichier pour que le package de génération soit `eclipse.emf.addressbook.model` (propriétés : `Base Package`).
 
