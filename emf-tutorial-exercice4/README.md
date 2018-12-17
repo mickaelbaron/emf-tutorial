@@ -10,8 +10,6 @@ Nous allons dans cet exercice créer des instances d’un modèle de manière pr
 
 ## Étapes à suivre
 
-* À partir du modèle de génération (via le fichier *genmodel*) générer le code de l’éditeur (**Generate Edit Code** et **Generate Editor Code**). Deux plugins doivent être créés (*eclipse.emf.addressbook.edit* et *eclipse.emf.addressbook.editor*).
-
 * Créer un nouveau plugin de type *fragment* (**File -> New -> Other... -> Plug-in Development -> Fragment Project**) nommé *eclipse.emf.addressbook.test*. Choisir comme plugin hôte *eclipse.emf.addressbook* (créé dans l’exercice 1). Une fois le fragment créé, ajouter la dépendance (onglet **Dependencies** du fichier *manifest.mf*) vers le plugin *org.junit* (4.12.0).
 
 * Créer un package `eclipse.emf.addressbook.model.test` et créer une classe appelée `AddressBookTest`.

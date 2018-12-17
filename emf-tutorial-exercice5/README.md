@@ -58,9 +58,7 @@ Pour l’instant nous avons vu que pour créer des instances du modèle nous dev
 
 * Copier votre fichier *addressbook.ecore* réalisé dans le premier exercice dans le répertoire *model* de votre nouveau projet. À noter que ce nouveau plugin ne contient aucune dépendance vers les plug-ins créés précédents.
 
-* Créer une méthode de test appelée `getAddressBookStructureWithoutGeneratedCodeTest` et dont l’objectif est 1) de charger le fichier *addressbook.ecore* afin de charger le modèle (accessible via le package racine) et 2) d’afficher la structure du modèle comme précisée sur la figure suivante.
-
-![Résultat attendu](./images/exercice5-result.png "Résultat attendu")
+* Créer une méthode de test appelée `getAddressBookStructureWithoutGeneratedCodeTest` et dont l’objectif est 1) de charger le fichier *addressbook.ecore* afin de charger le modèle (accessible via le package racine) et 2) d’afficher la structure du modèle comme précisée sur la figure précédente.
 
 ```java
 @Test
