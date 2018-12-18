@@ -63,7 +63,7 @@ public class AddressBookTest {
 }
 ```
 
-* Nous nous intéressons ensuite à charger des instances depuis un fichier XMI. Ajouter une nouvelle méthode de test dont le but est de vérifier que le chargement des instances créées lors de l’exercice 3 (fichier *sample.addressbook*) fonctionne.
+* Nous nous intéressons ensuite à charger des instances depuis un fichier XMI. Compléter la méthode de tests précédente de manière à charger les instances créées lors de l’exercice 3 (fichier *sample.addressbook*).
 
 ```java
 public class AddressBookTest {
@@ -74,7 +74,7 @@ public class AddressBookTest {
 
     // When
     resourceSet = new ResourceSetImpl();
-    uri = URI.createURI("file:/" + apiSamplePath + "sample.addressbook");
+    uri = URI.createURI("file:../../runtime-AddressBook/AddressBookSampleInstances/sample.addressbook");
     resource = resourceSet.getResource(uri, true);
     createAddressBook = (AddressBook) resource.getContents().get(0);
     Assert.assertNotNull(createAddressBook.getContains());
