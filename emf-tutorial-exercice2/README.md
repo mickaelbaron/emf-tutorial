@@ -38,7 +38,7 @@ Nous décidons par la suite de modifier le modèle de façon 1) à ajouter un at
  * @generated NOT
  */
 public String getIdentifier() {
-    return this.getFirstName() + this.getFamilyName() + this.getAge();
+    return this.getFirstName() + " " + this.getFamilyName() + " " + this.getAge();
 }
 
 /**
