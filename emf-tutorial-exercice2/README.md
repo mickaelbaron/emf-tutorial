@@ -29,7 +29,7 @@ Nous décidons par la suite de modifier le modèle de façon 1) à ajouter un at
 
 * Re-générer les codes Java (**Generate Model Code**).
 
-* Modifier la classe `eclipse.emf.addressbook.model.addressbook.impl.PersonImpl` de façon à implémenter les méthodes `getIdentifier()` et `display()` (voir code ci-dessous).
+* Modifier la classe Java `eclipse.emf.addressbook.model.addressbook.impl.PersonImpl` de façon à implémenter les méthodes `getIdentifier()` et `display()` (voir code ci-dessous).
 
 ```java
 /**
