@@ -40,7 +40,7 @@ public class AddressBookTest {
 }
 ```
 
-* Nous nous intéressons maintenant à sauvegarder des instances depuis un fichier XMI. Compléter la méthode de tests précédente de manière à sauvegarder les instances créées précédemment (voir code ci-dessous). Le fichier d’instances sera alors stocké dans le répertoire du plugin *eclipse.emf.addressbook.test*. Ajouter dans votre plugin la dépendance vers le plugin *org.eclipse.emf.ecore.xmi*. Dû à la présence de ce plugin, l’exécution du test unitaire doit se faire obligatoirement dans un environnement de plugins (**Run As JUnit Plug-in Test**).
+* Nous nous intéressons maintenant à sauvegarder des instances depuis un fichier XMI. Compléter la méthode de tests précédente de manière à sauvegarder les instances créées précédemment (voir code ci-dessous). Le fichier d’instances sera alors stocké dans le répertoire du plugin *eclipse.emf.addressbook.test*.
 
 ```java
 public class AddressBookTest {
@@ -62,6 +62,8 @@ public class AddressBookTest {
   }
 }
 ```
+
+* Ajouter dans votre plugin *eclipse.emf.addressbook.test* la dépendance vers le plugin *org.eclipse.emf.ecore.xmi*. Dû à la présence de ce plugin, l’exécution du test unitaire doit se faire obligatoirement dans un environnement de plugins (**Run As JUnit Plug-in Test**).
 
 * Nous nous intéressons ensuite à charger des instances depuis un fichier XMI. Compléter la méthode de tests précédente de manière à charger les instances créées lors de l’exercice 3 (fichier *sample.addressbook*).
 
