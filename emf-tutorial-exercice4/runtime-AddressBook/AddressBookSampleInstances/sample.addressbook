@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addressbook:AddressBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:addressbook="http://www.example.org/addressbook">
+  <contains firstName="Raoul" familyName="DUPONT" age="37">
+    <location number="1" street="Rue DotNet"/>
+  </contains>
+  <contains firstName="Mickael" familyName="BARON" age="36">
+    <location number="50" street="Place de Java"/>
+  </contains>
+  <contains firstName="John" familyName="SARPOL" age="38">
+    <location number="17" street="Square Express"/>
+  </contains>
+</addressbook:AddressBook>

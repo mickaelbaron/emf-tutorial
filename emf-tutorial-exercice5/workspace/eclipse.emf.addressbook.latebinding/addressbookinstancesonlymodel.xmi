@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<addressbook:AddressBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:addressbook="http://www.example.org/addressbook" xsi:schemaLocation="http://www.example.org/addressbook model/addressbook.ecore" name="Mon Carnet d'Adresses">
+  <contains firstName="Mickael" familyName="BARON"/>
+  <contains firstName="Raoul" familyName="DUPONT"/>
+  <contains firstName="John" familyName="SARPOL"/>
+</addressbook:AddressBook>

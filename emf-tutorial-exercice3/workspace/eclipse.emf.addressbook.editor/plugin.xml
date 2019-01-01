@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated addressbook -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="eclipse.emf.addressbook.model.addressbook.presentation.AddressbookModelWizardID"
+            name="%_UI_AddressbookModelWizard_label"
+            class="eclipse.emf.addressbook.model.addressbook.presentation.AddressbookModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/AddressbookModelFile.gif">
+         <description>%_UI_AddressbookModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated addressbook -->
+      <editor
+            id="eclipse.emf.addressbook.model.addressbook.presentation.AddressbookEditorID"
+            name="%_UI_AddressbookEditor_label"
+            icon="icons/full/obj16/AddressbookModelFile.gif"
+            extensions="addressbook"
+            class="eclipse.emf.addressbook.model.addressbook.presentation.AddressbookEditor"
+            contributorClass="eclipse.emf.addressbook.model.addressbook.presentation.AddressbookActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
