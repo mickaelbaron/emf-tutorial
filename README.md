@@ -1,4 +1,4 @@
-# EMF Tutoriel
+# Tutoriel EMF
 
 Le but de cette série d'exercices est d’apprendre à manipuler le framework de modélisation d’Eclipse appelé EMF. Nous couvrirons tous les aspects liés aux développements dirigés par les modèles avec les briques logiciels fournis par la plateforme Eclipse. La version Eclipse avec le package _modeling_ sera utilisée à cet effet.
 
