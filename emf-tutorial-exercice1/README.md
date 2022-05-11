@@ -8,8 +8,8 @@ Le modèle UML donné ci-dessous représente graphiquement la modélisation atte
 
 ## But
 
-* Démarrer un projet EMF.
-* Création d’un modèle EMF avec les outils Eclipse.
+* Démarrer un projet EMF ;
+* Créer un modèle EMF avec les outils Eclipse ;
 * Manipuler les différents éditeurs.
 
 ## Étapes à suivre

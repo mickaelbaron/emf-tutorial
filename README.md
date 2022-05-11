@@ -1,4 +1,4 @@
-# EMF Tutoriel
+# Tutoriel EMF
 
 Le but de cette série d'exercices est d’apprendre à manipuler le framework de modélisation d’Eclipse appelé EMF. Nous couvrirons tous les aspects liés aux développements dirigés par les modèles avec les briques logiciels fournis par la plateforme Eclipse. La version Eclipse avec le package _modeling_ sera utilisée à cet effet.
 
@@ -18,8 +18,8 @@ Cette série d'exercices se présente sous la forme d'un atelier composé de cin
 
 Avant de démarrer cette série d'exercices sur la manipulation du framework de modélisation EMF, veuillez préparer votre environnement de tests en installant :
 
-* [Java via OpenJDK](http://jdk.java.net/)
-* [Eclipse avec outils de modélisation](https://www.eclipse.org/ "Eclipse")
+* [Java via OpenJDK](http://jdk.java.net/) ;
+* [Eclipse avec outils de modélisation](https://www.eclipse.org/ "Eclipse").
 
 ## Ressources
 
